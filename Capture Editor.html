@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<!-- saved from url=(0070)chrome-extension://ggaabchcecdbomdcnbahdfddfikjmphe/layout/editor.html -->
+<html style="height: 100%; overflow: hidden; width: 100%;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style data-emotion="css-global" data-s=""></style><style data-emotion="css-global" data-s=""></style><style data-emotion="css-global" data-s=""></style><style data-emotion="css-global" data-s=""></style><style data-emotion="css-global" data-s=""></style><style data-emotion="css-global" data-s=""></style><style data-emotion="css-global" data-s=""></style><meta name="emotion-insertion-point" content=""><style data-emotion="css" data-s=""></style>
+    
+    <title>Capture Editor</title>
+    <script async="" src="chrome-extension://ggaabchcecdbomdcnbahdfddfikjmphe/libs/microsoft/clarity3.js"></script><script async="" src="chrome-extension://ggaabchcecdbomdcnbahdfddfikjmphe/libs/microsoft/clarity2.js"></script><script src="chrome-extension://ggaabchcecdbomdcnbahdfddfikjmphe/libs/microsoft/clarity.js"></script><style type="text/css" id="operaUserStyle"></style>
+  <style data-jss="" data-meta="makeStyles">
+.jss19 {
+  position: relative;
+}
+.jss20 {
+  position: absolute;
+}
+</style><style data-jss="" data-meta="makeStyles">
+</style><style data-jss="" data-meta="makeStyles">
+</style><style data-jss="" data-meta="makeStyles">
+</style><style data-jss="" data-meta="makeStyles">
+</style><style data-jss="" data-meta="makeStyles">
+</style><style data-jss="" data-meta="makeStyles">
+</style><style data-jss="" data-meta="makeStyles">
+</style><style data-jss="" data-meta="makeStyles">
+.jss8 {
+  display: flex;
+}
+.jss9 {
+  z-index: 1201;
+}
+.jss10 {
+  flex-shrink: 0;
+}
+.jss11 {
+  top: 60px;
+  border: none;
+  bottom: 0;
+  height: unset;
+  overflow-x: hidden;
+  background-color: #424242;
+}
+.jss12 {
+  padding: 8px;
+  flex-grow: 1;
+}
+.jss13 {
+  color: #bdbdbd;
+  margin: 0;
+  min-width: initial;
+}
+.jss14 {
+  color: #7388FF;
+}
+.jss15 {
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.jss16 {
+  height: 100%;
+  flex-direction: column;
+}
+.jss17 {
+  margin: 8px 0;
+}
+.jss18 {
+  color: #bdbdbd;
+  right: 4px;
+  width: 18px;
+  bottom: -4px;
+  margin: 0;
+  position: absolute;
+  transform: rotate(45deg);
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss40 {
+  transition: height 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+.jss41 {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  flex-direction: row;
+}
+.jss44 {
+  transition: opacity 400ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
+.jss45 {
+  gap: 16px;
+  display: flex;
+  margin-right: 8px;
+  justify-content: space-between;
+}
+.jss46 {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 4px;
+  -webkit-user-drag: none;
+}
+.jss47 {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  background-color: #303030;
+}
+.jss48 {
+  top: 16px;
+  left: 16px;
+  opacity: 0.8;
+  padding: 2px 4px;
+  position: absolute;
+  border-radius: 2px;
+  background-color: #424242;
+}
+.jss49 {
+  right: 16px;
+  opacity: 0.8;
+  padding: 2px 4px;
+  position: absolute;
+  border-radius: 2px;
+  background-color: #424242;
+}
+.jss50 {
+  right: 16px;
+  width: 16px;
+  bottom: 16px;
+  opacity: 0.8;
+  padding: 2px 4px;
+  position: absolute;
+  border-radius: 2px;
+  background-color: #424242;
+}
+.jss52 {
+  width: 100%;
+  cursor: row-resize;
+  height: 10px;
+  transition: border 300ms ease-out;
+}
+.jss52:hover {
+  border-bottom: 2px solid #7388FF;
+}
+.jss53 {
+  left: 56px;
+  right: 0;
+  height: 50px;
+  display: flex;
+  z-index: 1201;
+  position: absolute;
+  align-items: end;
+  flex-direction: column;
+}
+</style><style data-jss="" data-meta="makeStyles">
+</style><style data-jss="" data-meta="makeStyles">
+.jss25 {
+  width: 100%;
+  z-index: 1200;
+  position: relative;
+}
+.jss26 {
+  box-shadow: none;
+  background-color: #424242;
+  background-image: none;
+}
+.jss27 {
+  height: 64px;
+}
+.jss28 {
+  color: #fff;
+  font-weight: 100;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss29 {
+  top: 8px;
+  right: 8px;
+  width: 245px;
+  margin: 0px;
+  z-index: 1201;
+  position: fixed;
+}
+.jss30 {
+  font-size: 0.875rem;
+  font-weight: 100;
+}
+.jss31 {
+  padding: 0 15px;
+  min-height: 48px !IMPORTANT;
+}
+.jss32 {
+  padding: 0px;
+}
+.jss33 {
+  z-index: 1201;
+  position: fixed;
+}
+.jss34 {
+  margin: 0px !IMPORTANT;
+  align-items: center;
+}
+.jss35 {
+  padding: 4px 12px;
+}
+.jss36 {
+  right: 0;
+}
+.jss37 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.jss38 {
+  color: #FFF;
+  margin-right: 8px;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss39 {
+  color: #ccc;
+  font-size: 0.75rem;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  min-height: 0;
+  flex-direction: column;
+}
+.jss2 {
+  width: 100%;
+  bottom: 10px;
+  position: absolute;
+  text-align: center;
+}
+.jss3 {
+  top: 50%;
+  left: 50%;
+  color: white;
+  display: inline-block;
+  position: absolute;
+  font-size: 1rem;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.jss4 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  flex-grow: 1;
+}
+.jss5 {
+  width: calc(100% - 56px);
+  height: 100%;
+  display: flex;
+  margin-left: 56px;
+  flex-direction: column;
+}
+.jss6 {
+  z-index: 1;
+}
+.jss7 {
+  color: white;
+  font-size: 1rem;
+  margin-top: -2px;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.jss7:hover {
+  color: #7388FF;
+}
+</style><style data-emotion="css" data-s=""></style></head>
+  <body style="background-color: rgb(63, 81, 181); margin: 0px; color: rgb(238, 238, 238); width: 100%; height: 100%; cursor: pointer;">
+    <div id="editor" style="width: 100%; height: 100%"><div class="jss1"><div class="MuiDrawer-root MuiDrawer-anchorLeft MuiDrawer-docked jss10 css-m90ygk"><div class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiDrawer-paper jss11 MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft css-1b4ro4c" style="--Paper-shadow: none; --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));"><div></div><ul class="MuiList-root MuiList-padding css-1wduhak"><div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-1p2cd4x" tabindex="0" role="button" name="SAVE" aria-label="Save"><div class="MuiListItemIcon-root jss13 css-dqe094"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SaveIcon"><path d="M17 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V7zm-5 16c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3m3-10H5V5h10z"></path></svg></div><span class="MuiTouchRipple-root css-4mb1j7"></span></div><hr class="MuiDivider-root MuiDivider-fullWidth jss17 css-7oc88h"><div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-1p2cd4x" tabindex="0" role="button" name="SELECT" aria-label="Select, move, resize"><div class="MuiListItemIcon-root jss13 css-dqe094"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium jss14 css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24"><path d="M8.801 14.1673c1.1574-.6463 2.2832-1.3625 3.4607-1.9642.5534.105.648.8264.9716 1.2265 1.162 2.0518 2.3957 4.0712 3.513 6.1432-.105.5534-.8265.648-1.2266.9716-.8098.4461-1.5887.9608-2.4186 1.3625-.5534-.105-.648-.8264-.9716-1.2265-1.162-2.0518-2.3957-4.0712-3.5129-6.1432-.02-.1456.0558-.2984.1844-.3699zM4.3232 2.0931c5.1122 3.6328 10.2236 7.2667 15.3536 10.8743-3.6812 1.6252-7.4158 3.2306-10.6467 5.6739-1.1089.7839-2.2063 1.5838-3.3053 2.3814L4.3232 2.093z"></path></svg></div><span class="MuiTouchRipple-root css-4mb1j7"></span></div><div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-1p2cd4x" tabindex="0" role="button" name="PAN" aria-label="Pan"><div class="MuiListItemIcon-root jss13 css-dqe094"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-rv9fhi" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="PanToolIcon"><path d="M23 5.5V20c0 2.2-1.8 4-4 4h-7.3c-1.08 0-2.1-.43-2.85-1.19L1 14.83s1.26-1.23 1.3-1.25c.22-.19.49-.29.79-.29.22 0 .42.06.6.16.04.01 4.31 2.46 4.31 2.46V4c0-.83.67-1.5 1.5-1.5S11 3.17 11 4v7h1V1.5c0-.83.67-1.5 1.5-1.5S15 .67 15 1.5V11h1V2.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5V11h1V5.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5"></path></svg></div></div><hr class="MuiDivider-root MuiDivider-fullWidth jss17 css-7oc88h"><div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-1p2cd4x" tabindex="0" role="button" name="DRAW" aria-label="Free draw"><div class="MuiListItemIcon-root jss13 css-dqe094"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="BrushIcon"><path d="M7 14c-1.66 0-3 1.34-3 3 0 1.31-1.16 2-2 2 .92 1.22 2.49 2 4 2 2.21 0 4-1.79 4-4 0-1.66-1.34-3-3-3m13.71-9.37-1.34-1.34a.996.996 0 0 0-1.41 0L9 12.25 11.75 15l8.96-8.96c.39-.39.39-1.02 0-1.41"></path></svg></div></div><div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-1p2cd4x" tabindex="0" role="button" name="LINE" aria-label="Draw line"><div class="MuiListItemIcon-root jss13 css-dqe094"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="RemoveIcon"><path d="M19 13H5v-2h14z"></path></svg></div></div><div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-1p2cd4x" tabindex="0" role="button" name="ARROW" aria-label="Draw arrow"><div class="MuiListItemIcon-root jss13 css-dqe094"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="TransitEnterexitIcon"><path d="M16 18H6V8h3v4.77L15.98 6 18 8.03 11.15 15H16z"></path></svg></div></div><div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-1p2cd4x" tabindex="0" role="button" name="ELLIPSE" aria-label="Draw ellipse"><div class="MuiListItemIcon-root jss13 css-dqe094"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="FiberManualRecordOutlinedIcon"><path d="M12 6c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6 2.69-6 6-6m0-2c-4.42 0-8 3.58-8 8s3.58 8 8 8 8-3.58 8-8-3.58-8-8-8"></path></svg><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium jss18 css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ArrowRightIcon"><path d="m10 17 5-5-5-5z"></path></svg></div></div><div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-1p2cd4x" tabindex="0" role="button" name="RECTANGLE" aria-label="Draw rectangle"><div class="MuiListItemIcon-root jss13 css-dqe094"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="RectangleOutlinedIcon"><path d="M2 4v16h20V4zm18 14H4V6h16z"></path></svg><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium jss18 css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ArrowRightIcon"><path d="m10 17 5-5-5-5z"></path></svg></div></div><div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-1p2cd4x" tabindex="0" role="button" name="TEXT" aria-label="Add text"><div class="MuiListItemIcon-root jss13 css-dqe094"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="TitleIcon"><path d="M5 4v3h5.5v12h3V7H19V4z"></path></svg></div></div><div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-1p2cd4x" tabindex="0" role="button" name="CROP" aria-label="Crop"><div class="MuiListItemIcon-root jss13 css-dqe094"><div class="jss19 MuiBox-root css-0"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="CropIcon"><path d="M17 15h2V7c0-1.1-.9-2-2-2H9v2h8zM7 17V1H5v4H1v2h4v10c0 1.1.9 2 2 2h10v4h2v-4h4v-2z"></path></svg><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium jss20 jss21 css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="StarIcon"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg></div></div></div><div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-1p2cd4x" tabindex="0" role="button" name="HIGHLIGHT" aria-label="Highlight"><div class="MuiListItemIcon-root jss13 css-dqe094"><div class="jss19 MuiBox-root css-0"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="HighlightIcon"><path d="m6 14 3 3v5h6v-5l3-3V9H6zm5-12h2v3h-2zM3.5 5.88l1.41-1.41 2.12 2.12L5.62 8zm13.46.71 2.12-2.12 1.41 1.41L18.38 8z"></path></svg><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium jss20 jss22 css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="StarIcon"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg></div></div></div><div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-1p2cd4x" tabindex="0" role="button" name="NUMBERED_STEP" aria-label="Numbered step"><div class="MuiListItemIcon-root jss13 css-dqe094"><div class="jss19 MuiBox-root css-0"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="PinRoundedIcon"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2M7.64 14.47c0 .29-.24.53-.53.53h-.09c-.29 0-.53-.24-.53-.53V10.5l-.45.33c-.24.18-.59.12-.76-.14-.15-.24-.1-.55.13-.72l1.19-.85c.11-.08.24-.12.38-.12.36 0 .66.29.66.66zm5.37.53h-2.67c-.4 0-.72-.32-.72-.72 0-.19.08-.38.21-.51.95-.95 1.58-1.58 1.92-1.94.4-.42.54-.69.54-1.06 0-.4-.31-.72-.81-.72-.34 0-.57.16-.72.37-.15.2-.41.26-.64.16-.34-.14-.45-.57-.22-.85.15-.19.37-.38.67-.53.69-.33 1.48-.2 1.95.03.86.44.91 1.24.91 1.48 0 .64-.31 1.26-.92 1.86-.25.25-.72.71-1.4 1.39l.03.05h1.88c.27 0 .49.22.49.49s-.23.5-.5.5m5.74-.85c-.08.13-.56.85-1.76.85-.03 0-1.23.06-1.83-.98-.15-.26-.04-.6.24-.71l.12-.05c.22-.09.47-.01.59.19.14.24.39.49.88.49.41 0 .89-.28.89-.77 0-.55-.48-.79-1.04-.79-.27 0-.49-.23-.49-.5 0-.26.2-.47.45-.49v-.01c.33 0 .88-.14.88-.72 0-.39-.31-.65-.75-.65-.32 0-.53.13-.67.3-.14.18-.37.26-.58.17l-.08-.03c-.3-.12-.4-.5-.2-.75.27-.35.76-.7 1.54-.7 1.09 0 1.54.64 1.62.75.33.5.28 1.16.02 1.57-.15.22-.32.38-.52.48v.07c.28.11.51.28.68.52.37.52.33 1.27.01 1.76"></path></svg><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium jss20 jss23 css-q7mezt" focusable="false" aria-hidden="true" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet"><path fill="currentColor" d="M5 16L3 5l5.5 5L12 4l3.5 6L21 5l-2 11H5m14 3c0 .6-.4 1-1 1H6c-.6 0-1-.4-1-1v-1h14v1Z"></path></svg></div></div></div><div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-1p2cd4x" tabindex="0" role="button" name="SVG" aria-label="Add icon"><div class="MuiListItemIcon-root jss13 css-dqe094"><div class="jss19 MuiBox-root css-0"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="FaceIcon"><path d="M9 11.75c-.69 0-1.25.56-1.25 1.25s.56 1.25 1.25 1.25 1.25-.56 1.25-1.25-.56-1.25-1.25-1.25m6 0c-.69 0-1.25.56-1.25 1.25s.56 1.25 1.25 1.25 1.25-.56 1.25-1.25-.56-1.25-1.25-1.25M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 18c-4.41 0-8-3.59-8-8 0-.29.02-.58.05-.86 2.36-1.05 4.23-2.98 5.21-5.37C11.07 8.33 14.05 10 17.42 10c.78 0 1.53-.09 2.25-.26.21.71.33 1.47.33 2.26 0 4.41-3.59 8-8 8"></path></svg><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium jss20 jss24 css-q7mezt" focusable="false" aria-hidden="true" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet"><path fill="currentColor" d="M5 16L3 5l5.5 5L12 4l3.5 6L21 5l-2 11H5m14 3c0 .6-.4 1-1 1H6c-.6 0-1-.4-1-1v-1h14v1Z"></path></svg></div></div></div></ul><hr class="MuiDivider-root MuiDivider-fullWidth css-7oc88h"><ul class="MuiList-root MuiList-padding jss16 css-1wduhak"><div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-1p2cd4x" tabindex="0" role="button" name="UNDO" aria-label="Undo"><div class="MuiListItemIcon-root jss13 css-dqe094"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="UndoIcon"><path d="M12.5 8c-2.65 0-5.05.99-6.9 2.6L2 7v9h9l-3.62-3.62c1.39-1.16 3.16-1.88 5.12-1.88 3.54 0 6.55 2.31 7.6 5.5l2.37-.78C21.08 11.03 17.15 8 12.5 8"></path></svg></div></div><div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-1p2cd4x" tabindex="0" role="button" name="REDO" aria-label="Redo"><div class="MuiListItemIcon-root jss13 css-dqe094"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="RedoIcon"><path d="M18.4 10.6C16.55 8.99 14.15 8 11.5 8c-4.65 0-8.58 3.03-9.96 7.22L3.9 16c1.05-3.19 4.05-5.5 7.6-5.5 1.95 0 3.73.72 5.12 1.88L13 16h9V7z"></path></svg></div></div><div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-1p2cd4x" tabindex="0" role="button" name="RESTORE" aria-label="Undo all"><div class="MuiListItemIcon-root jss13 css-dqe094"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="RestoreIcon"><path d="M13 3c-4.97 0-9 4.03-9 9H1l3.89 3.89.07.14L9 12H6c0-3.87 3.13-7 7-7s7 3.13 7 7-3.13 7-7 7c-1.93 0-3.68-.79-4.94-2.06l-1.42 1.42C8.27 19.99 10.51 21 13 21c4.97 0 9-4.03 9-9s-4.03-9-9-9m-1 5v5l4.28 2.54.72-1.21-3.5-2.08V8z"></path></svg></div></div></ul><div class="jss15"><ul class="MuiList-root MuiList-padding css-1wduhak"><div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-1p2cd4x" tabindex="0" role="button" aria-label="Account"><div class="MuiListItemIcon-root jss13 css-dqe094"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="AccountCircleIcon"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 4c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6m0 14c-2.03 0-4.43-.82-6.14-2.88C7.55 15.8 9.68 15 12 15s4.45.8 6.14 2.12C16.43 19.18 14.03 20 12 20"></path></svg></div></div><div class="MuiButtonBase-root MuiListItemButton-root MuiListItemButton-gutters MuiListItemButton-root MuiListItemButton-gutters css-1p2cd4x" tabindex="0" role="button" aria-label="Settings"><div class="MuiListItemIcon-root jss13 css-dqe094"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SettingsIcon"><path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6"></path></svg></div></div></ul></div></div></div><div class="jss25"><header class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionStatic jss26 css-t0yclg" style="--Paper-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12); --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0.092), rgba(255, 255, 255, 0.092));"><div class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular jss27 css-awgou1"><h6 class="MuiTypography-root MuiTypography-h6 jss28 css-1rl0qlz">Chrome Capture</h6></div></header></div><div class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root jss29 MuiAccordion-rounded MuiAccordion-gutters css-1ys42bn" style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12); --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0.051), rgba(255, 255, 255, 0.051));"><h3 class="MuiAccordion-heading css-wnfue5"><button class="MuiButtonBase-root MuiAccordionSummary-root jss31 MuiAccordionSummary-gutters handle css-z61e0u" tabindex="0" type="button" aria-expanded="false"><span class="MuiAccordionSummary-content jss34 MuiAccordionSummary-contentGutters css-1b8uc0m"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium jss38 css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="StarIcon"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg><p class="MuiTypography-root MuiTypography-body1 jss30 css-1w3atla">Premium Options</p></span><span class="MuiAccordionSummary-expandIconWrapper css-1uoklxw"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ExpandMoreIcon"><path d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></span></button></h3><div class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-hidden css-abqyn" style="min-height: 0px;"><div class="MuiCollapse-wrapper MuiCollapse-vertical css-15830to"><div class="MuiCollapse-wrapperInner MuiCollapse-vertical css-9vd5ud"><div role="region" class="MuiAccordion-region"><div class="MuiAccordionDetails-root jss32 css-l9xe8y"><ul class="MuiList-root MuiList-padding jss37 css-1wduhak"><li class="MuiListItem-container css-19sk4h4" style="z-index: 1000;"><div class="MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-secondaryAction css-mzhc34"><div class="MuiListItemText-root css-14rdsw0"><span class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1w3atla">Color</span></div></div><div class="MuiListItemSecondaryAction-root jss36 css-19bscgc"><div style="cursor: pointer; position: relative; border: 1px solid white; width: 40px; height: 30px; border-radius: 4px; margin-right: 15px; z-index: 1; background-color: rgb(63, 81, 181);"></div></div></li><li class="MuiListItem-root MuiListItem-gutters jss35 MuiListItem-padding css-146xefr"><div class="MuiFormControl-root MuiFormControl-marginDense MuiFormControl-fullWidth MuiTextField-root css-beunk1" data-clarity-unmask="True"><label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeSmall MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeSmall MuiInputLabel-outlined css-y8387d" data-shrink="true" for="mui-19" id="mui-19-label">Size</label><div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-sizeSmall css-1nsxf1m"><input aria-invalid="false" name="drawSize" type="number" class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-lnjeqa" value="12" id="mui-19"><fieldset aria-hidden="true" class="MuiOutlinedInput-notchedOutline css-kdbx36"><legend class="css-w1u3ce"><span>Size</span></legend></fieldset></div></div></li><li class="MuiListItem-root MuiListItem-gutters jss35 MuiListItem-padding css-146xefr"><div class="MuiFormControl-root MuiFormControl-marginDense MuiFormControl-fullWidth MuiTextField-root css-beunk1" data-clarity-unmask="True"><label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeSmall MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeSmall MuiInputLabel-outlined css-y8387d" data-shrink="true" for="mui-21" id="mui-21-label">Font</label><div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-sizeSmall MuiSelect-root css-1nsxf1m"><div tabindex="0" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-labelledby="mui-21-label mui-21" id="mui-21" class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1yvvdnt">Arial</div><input aria-invalid="false" name="fontFamily" aria-hidden="true" tabindex="-1" class="MuiSelect-nativeInput css-147e5lo" value="Arial"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-1cisn15" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ArrowDropDownIcon"><path d="M7 10l5 5 5-5z"></path></svg><fieldset aria-hidden="true" class="MuiOutlinedInput-notchedOutline css-kdbx36"><legend class="css-w1u3ce"><span>Font</span></legend></fieldset></div></div></li><li class="MuiListItem-root MuiListItem-gutters jss35 MuiListItem-padding css-146xefr"><div class="MuiFormControl-root MuiFormControl-marginDense MuiFormControl-fullWidth MuiTextField-root css-beunk1" data-clarity-unmask="True"><label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeSmall MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeSmall MuiInputLabel-outlined css-y8387d" data-shrink="true" for="mui-23" id="mui-23-label">Playback Speed</label><div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-sizeSmall MuiSelect-root css-1nsxf1m"><div tabindex="0" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-labelledby="mui-23-label mui-23" id="mui-23" class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1yvvdnt">1x (Normal)</div><input aria-invalid="false" name="playbackSpeed" aria-hidden="true" tabindex="-1" class="MuiSelect-nativeInput css-147e5lo" value="1"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-1cisn15" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ArrowDropDownIcon"><path d="M7 10l5 5 5-5z"></path></svg><fieldset aria-hidden="true" class="MuiOutlinedInput-notchedOutline css-kdbx36"><legend class="css-w1u3ce"><span>Playback Speed</span></legend></fieldset></div></div></li><li class="MuiListItem-root MuiListItem-gutters jss35 MuiListItem-padding css-146xefr"><div class="MuiFormControl-root MuiFormControl-marginDense MuiFormControl-fullWidth MuiTextField-root css-beunk1" data-clarity-unmask="True"><label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeSmall MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeSmall MuiInputLabel-outlined css-y8387d" data-shrink="true" for="mui-28" id="mui-28-label">Frames per second (fps)</label><div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-sizeSmall MuiSelect-root css-1nsxf1m"><div tabindex="0" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-labelledby="mui-28-label mui-28" id="mui-28" class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1yvvdnt">12</div><input aria-invalid="false" name="frames" aria-hidden="true" tabindex="-1" class="MuiSelect-nativeInput css-147e5lo" value="12"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-1cisn15" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ArrowDropDownIcon"><path d="M7 10l5 5 5-5z"></path></svg><fieldset aria-hidden="true" class="MuiOutlinedInput-notchedOutline css-kdbx36"><legend class="css-w1u3ce"><span>Frames per second (fps)</span></legend></fieldset></div></div></li><li class="MuiListItem-root MuiListItem-gutters jss35 MuiListItem-padding css-146xefr"><div class="MuiFormControl-root MuiFormControl-marginDense MuiFormControl-fullWidth MuiTextField-root css-beunk1" data-clarity-unmask="True"><label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeSmall MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeSmall MuiInputLabel-outlined css-y8387d" data-shrink="true" for="mui-25" id="mui-25-label">Special Effect</label><div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-sizeSmall MuiSelect-root css-1nsxf1m"><div tabindex="0" role="combobox" aria-expanded="false" aria-haspopup="listbox" class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1yvvdnt" aria-labelledby="mui-25-label mui-25" id="mui-25"><div class="MuiBox-root css-171onha">none</div></div><input aria-invalid="false" aria-hidden="true" tabindex="-1" class="MuiSelect-nativeInput css-147e5lo" value="none"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-1cisn15" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ArrowDropDownIcon"><path d="M7 10l5 5 5-5z"></path></svg><fieldset aria-hidden="true" class="MuiOutlinedInput-notchedOutline css-kdbx36"><legend class="css-w1u3ce"><span>Special Effect</span></legend></fieldset></div></div></li></ul></div></div></div></div></div></div><div style="display: flex; margin-left: 56px; width: calc(100% - 56px); height: 100%; flex-direction: column;"><div style="width: 100%; height: 100%; flex-grow: 1; position: relative;"><div class="jss2"><span class="MuiTypography-root MuiTypography-caption jss39 css-z0qx54">Pro tip: Scroll when hovering the screenshot/recording to zoom.</span></div><div style="position: relative; overflow: hidden; width: 100%; height: 100%; outline: none;"><div id="zoom-pan-container" style="width: 100%; height: 100%; overflow: hidden; position: relative; cursor: default; touch-action: none; user-select: none;"><div style="width: 1122.84px; height: 574px; position: absolute; left: calc(50% - 561.418px); top: calc(50% - 287px); pointer-events: auto; will-change: transform;"><div tabindex="1000" id="preview-container" style="position: absolute; display: inline-block; top: 50%; left: 50%; transform: translate(-50%, -50%); outline: none; width: 100%; height: 100%;"><div style="opacity: 1; transform: none; transition: opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1), transform 666ms cubic-bezier(0.4, 0, 0.2, 1);"><canvas data-clarity-mask="True" width="1874" height="958" style="display: initial; width: 1123px; height: 574px; position: absolute; user-select: none;"></canvas><video data-clarity-mask="True" autoplay="" width="1874" height="958" loop="" src="blob:chrome-extension://ggaabchcecdbomdcnbahdfddfikjmphe/64743737-e14f-4bd9-9c71-d405688f319d" style="display: none; width: 1123px; height: 574px; position: absolute; user-select: none;"></video></div><div class="canvas-container" style="width: 1122.84px; height: 574px; position: relative; user-select: none;"><canvas id="canvas" class="lower-canvas" width="1122" height="574" style="width: 1122.84px; height: 574px; position: absolute; left: 0px; top: 0px; touch-action: none; user-select: none;"></canvas><canvas class="upper-canvas " width="1122" height="574" style="width: 1122.84px; height: 574px; position: absolute; left: 0px; top: 0px; touch-action: none; user-select: none; cursor: default;"></canvas></div></div></div></div></div></div></div><div><div class="jss53 jss61"><div class="MuiBox-root css-119a4dj"><div class="MuiBox-root css-shoo3o"><div class="jss19 MuiBox-root css-0"><div class="MuiFormControl-root MuiTextField-root css-1pv2xcc" data-clarity-unmask="True" aria-label="Playback Speed"><label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeSmall MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeSmall MuiInputLabel-outlined css-y8387d" data-shrink="true" for="mui-30" id="mui-30-label">Playback Speed</label><div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-sizeSmall MuiSelect-root css-if7uc1"><div tabindex="0" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-labelledby="mui-30-label mui-30" id="mui-30" class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1yvvdnt">1x</div><input aria-invalid="false" name="playbackSpeed" aria-hidden="true" tabindex="-1" class="MuiSelect-nativeInput css-147e5lo" value="1"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-1cisn15" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ArrowDropDownIcon"><path d="M7 10l5 5 5-5z"></path></svg><fieldset aria-hidden="true" class="MuiOutlinedInput-notchedOutline css-kdbx36"><legend class="css-w1u3ce"><span>Playback Speed</span></legend></fieldset></div></div><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium jss20 jss62 css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="StarIcon"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg></div><div class="jss19 MuiBox-root css-0"><div class="MuiFormControl-root MuiTextField-root css-1pv2xcc" data-clarity-unmask="True" aria-label="Frames per second (fps)"><label class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeSmall MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiFormLabel-filled MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-sizeSmall MuiInputLabel-outlined css-y8387d" data-shrink="true" for="mui-33" id="mui-33-label">FPS</label><div class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-sizeSmall MuiSelect-root css-if7uc1"><div tabindex="0" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-labelledby="mui-33-label mui-33" id="mui-33" class="MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1yvvdnt">12</div><input aria-invalid="false" name="frames" aria-hidden="true" tabindex="-1" class="MuiSelect-nativeInput css-147e5lo" value="12"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-1cisn15" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ArrowDropDownIcon"><path d="M7 10l5 5 5-5z"></path></svg><fieldset aria-hidden="true" class="MuiOutlinedInput-notchedOutline css-kdbx36"><legend class="css-w1u3ce"><span>FPS</span></legend></fieldset></div></div><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium jss20 jss63 css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="StarIcon"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg></div></div><div class="jss45"><div class="jss19 jss44 jss57 MuiBox-root css-0"><button class="MuiButtonBase-root MuiFab-root MuiFab-circular MuiFab-sizeSmall MuiFab-default MuiFab-root MuiFab-circular MuiFab-sizeSmall MuiFab-default jss42 jss44 jss57 css-16367vq" tabindex="0" type="button"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="MenuIcon"><path d="M3 18h18v-2H3zm0-5h18v-2H3zm0-7v2h18V6z"></path></svg></button><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium jss20 jss64 css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="StarIcon"><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg></div><button class="MuiButtonBase-root MuiFab-root MuiFab-circular MuiFab-sizeSmall MuiFab-default MuiFab-root MuiFab-circular MuiFab-sizeSmall MuiFab-default jss42 jss43 jss56 css-16367vq" tabindex="0" type="button"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="ExpandLessIcon"><path d="m12 8-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"></path></svg></button></div></div><div class="jss52 jss60"></div></div><div tabindex="0" class="MuiDrawer-root MuiDrawer-anchorBottom MuiDrawer-docked jss40 jss54 css-m90ygk"><div class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiDrawer-paper jss41 jss55 MuiDrawer-paperAnchorBottom MuiDrawer-paperAnchorDockedBottom css-13a6q9d" style="--Paper-shadow: none; --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));"><div style="overflow: visible; height: 0px; width: 0px;"><div style="position: relative; height: 200px; width: 1875px; overflow: auto hidden; will-change: transform; direction: ltr;"><div style="height: 100%; width: 25430.1px; position: relative;"><div style="position: absolute; left: 0px; top: 0px; height: 100%; width: 381.232px; display: flex; justify-content: center; align-items: center;"><div class="jss51" style="display: flex; align-content: center; height: calc(100% - 20px); width: 100%;"><canvas data-clarity-mask="True" loading="lazy" style="display: initial; border-radius: 4px; -webkit-user-drag: none; cursor: pointer; width: 100%; height: 100%;" width="381" height="190"></canvas><span class="MuiTypography-root MuiTypography-caption jss48 css-z0qx54">1</span><span class="MuiTypography-root MuiTypography-caption jss49 jss58 css-z0qx54">0.00 secs</span><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium jss50 jss59 css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="MoreVertIcon"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2m0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2m0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2"></path></svg></div></div><div style="position: absolute; left: 391.232px; top: 0px; height: 100%; width: 381.232px; display: flex; justify-content: center; align-items: center;"><div class="jss51" style="display: flex; align-content: center; height: calc(100% - 20px); width: 100%;"><canvas data-clarity-mask="True" loading="lazy" style="display: initial; border-radius: 4px; -webkit-user-drag: none; cursor: pointer; width: 100%; height: 100%;" width="381" height="190"></canvas><span class="MuiTypography-root MuiTypography-caption jss48 css-z0qx54">2</span><span class="MuiTypography-root MuiTypography-caption jss49 jss58 css-z0qx54">0.12 secs</span><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium jss50 jss59 css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="MoreVertIcon"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2m0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2m0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2"></path></svg></div></div><div style="position: absolute; left: 782.463px; top: 0px; height: 100%; width: 381.232px; display: flex; justify-content: center; align-items: center;"><div class="jss51" style="display: flex; align-content: center; height: calc(100% - 20px); width: 100%;"><canvas data-clarity-mask="True" loading="lazy" style="display: initial; border-radius: 4px; -webkit-user-drag: none; cursor: pointer; width: 100%; height: 100%;" width="381" height="190"></canvas><span class="MuiTypography-root MuiTypography-caption jss48 css-z0qx54">3</span><span class="MuiTypography-root MuiTypography-caption jss49 jss58 css-z0qx54">0.18 secs</span><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium jss50 jss59 css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="MoreVertIcon"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2m0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2m0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2"></path></svg></div></div><div style="position: absolute; left: 1173.7px; top: 0px; height: 100%; width: 381.232px; display: flex; justify-content: center; align-items: center;"><div class="jss51" style="display: flex; align-content: center; height: calc(100% - 20px); width: 100%;"><canvas data-clarity-mask="True" loading="lazy" style="display: initial; border-radius: 4px; -webkit-user-drag: none; cursor: pointer; width: 100%; height: 100%;" width="381" height="190"></canvas><span class="MuiTypography-root MuiTypography-caption jss48 css-z0qx54">4</span><span class="MuiTypography-root MuiTypography-caption jss49 jss58 css-z0qx54">0.27 secs</span><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium jss50 jss59 css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="MoreVertIcon"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2m0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2m0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2"></path></svg></div></div><div style="position: absolute; left: 1564.93px; top: 0px; height: 100%; width: 381.232px; display: flex; justify-content: center; align-items: center;"><div class="jss51" style="display: flex; align-content: center; height: calc(100% - 20px); width: 100%;"><canvas data-clarity-mask="True" loading="lazy" style="display: initial; border-radius: 4px; -webkit-user-drag: none; cursor: pointer; width: 100%; height: 100%;" width="381" height="190"></canvas><span class="MuiTypography-root MuiTypography-caption jss48 css-z0qx54">5</span><span class="MuiTypography-root MuiTypography-caption jss49 jss58 css-z0qx54">0.34 secs</span><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium jss50 jss59 css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="MoreVertIcon"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2m0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2m0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2"></path></svg></div></div><div style="position: absolute; left: 1956.16px; top: 0px; height: 100%; width: 381.232px; display: flex; justify-content: center; align-items: center;"><div class="jss51" style="display: flex; align-content: center; height: calc(100% - 20px); width: 100%;"><canvas data-clarity-mask="True" loading="lazy" style="display: initial; border-radius: 4px; -webkit-user-drag: none; cursor: pointer; width: 100%; height: 100%;" width="381" height="190"></canvas><span class="MuiTypography-root MuiTypography-caption jss48 css-z0qx54">6</span><span class="MuiTypography-root MuiTypography-caption jss49 jss58 css-z0qx54">1.12 secs</span><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium jss50 jss59 css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="MoreVertIcon"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2m0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2m0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2"></path></svg></div></div><div style="position: absolute; left: 2347.39px; top: 0px; height: 100%; width: 381.232px; display: flex; justify-content: center; align-items: center;"><div class="jss51" style="display: flex; align-content: center; height: calc(100% - 20px); width: 100%;"><canvas data-clarity-mask="True" loading="lazy" style="display: initial; border-radius: 4px; -webkit-user-drag: none; cursor: pointer; width: 100%; height: 100%;" width="381" height="190"></canvas><span class="MuiTypography-root MuiTypography-caption jss48 css-z0qx54">7</span><span class="MuiTypography-root MuiTypography-caption jss49 jss58 css-z0qx54">1.13 secs</span><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium jss50 jss59 css-q7mezt" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="MoreVertIcon"><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2m0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2m0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2"></path></svg></div></div></div></div></div></div></div></div></div></div>
+    <div id="modalContainer"></div>
+  
+  <script src="chrome-extension://ggaabchcecdbomdcnbahdfddfikjmphe/libs/fabric/fabric.min.js"></script>
+  <script src="chrome-extension://ggaabchcecdbomdcnbahdfddfikjmphe/libs/paddle/paddle.js"></script>
+  <script src="chrome-extension://ggaabchcecdbomdcnbahdfddfikjmphe/dist/shared/bundle.js"></script>
+  <script src="chrome-extension://ggaabchcecdbomdcnbahdfddfikjmphe/dist/editor/bundle.js"></script>
+
+<div role="presentation" class="MuiPopover-root MuiMenu-root MuiModal-root MuiModal-hidden css-ewxla7" aria-hidden="true"><div aria-hidden="true" class="MuiBackdrop-root MuiBackdrop-invisible MuiModal-backdrop css-1lbe2ow" style="opacity: 0; visibility: hidden;"></div><div tabindex="-1" data-testid="sentinelStart"></div><div class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiPopover-paper MuiMenu-paper css-1t90wz1" tabindex="-1" style="--Paper-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12); --Paper-overlay: linear-gradient(rgba(255, 255, 255, 0.119), rgba(255, 255, 255, 0.119)); opacity: 0; transform: scale(0.75, 0.5625); visibility: hidden;"><ul class="MuiList-root MuiList-padding MuiMenu-list css-ubifyk" role="menu" tabindex="-1"><li class="MuiButtonBase-root MuiMenuItem-root Mui-disabled MuiMenuItem-gutters Mui-disabled MuiMenuItem-root Mui-disabled MuiMenuItem-gutters css-2khfyk" tabindex="-1" role="menuitem" aria-disabled="true">Delete selected</li><li class="MuiButtonBase-root MuiMenuItem-root Mui-disabled MuiMenuItem-gutters Mui-disabled MuiMenuItem-root Mui-disabled MuiMenuItem-gutters css-2khfyk" tabindex="-1" role="menuitem" aria-disabled="true">Restore selected</li><li class="MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters css-2khfyk" tabindex="0" role="menuitem">Delete every second frame</li><li class="MuiButtonBase-root MuiMenuItem-root Mui-disabled MuiMenuItem-gutters Mui-disabled MuiMenuItem-root Mui-disabled MuiMenuItem-gutters css-2khfyk" tabindex="-1" role="menuitem" aria-disabled="true">Apply edits to selected</li><li class="MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters css-2khfyk" tabindex="-1" role="menuitem">Restore All</li><li class="MuiButtonBase-root MuiMenuItem-root MuiMenuItem-gutters MuiMenuItem-root MuiMenuItem-gutters css-2khfyk" tabindex="-1" role="menuitem">Unselect All</li></ul></div><div tabindex="-1" data-testid="sentinelEnd"></div></div></body></html>
